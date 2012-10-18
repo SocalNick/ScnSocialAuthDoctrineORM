@@ -1,0 +1,32 @@
+{
+    "name": "socalnick/scn-social-auth-doctrine-orm",
+    "description": "An extension of ScnSocialAuth that provides integration with Doctrine2 ORM.",
+    "type": "library",
+    "keywords": ["zf2", "doctrine2", "orm", "zfc", "oauth", "socialauth", "hybridauth"],
+    "homepage": "https://github.com/SocalNick/ScnSocialAuthDoctrineORM",
+    "authors": [ {
+        "name": "Nicholas Calugar",
+        "email": "njcalugar@gmail.com",
+        "homepage": "http://socalnick.github.com/",
+        "role": "Developer"
+    }, {
+        "name": "Jérémy Huet",
+        "email": "jeremy.huet+github@gmail.com",
+        "homepage": "http://glpl.us/jhuet",
+        "role": "Developer"
+    } ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "socalnick/scn-social-auth": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ScnSocialAuthDoctrineORM": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
