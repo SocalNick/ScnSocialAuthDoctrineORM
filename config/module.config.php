@@ -4,6 +4,7 @@ return array(
         'driver' => array(
             'ScnSocialAuth-Entity' => array(
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
+                'paths' => array(__DIR__ . '/../src/ScnSocialAuthDoctrineORM/Entity'),
             ),
             'orm_default' => array(
                 'drivers' => array(
