@@ -18,8 +18,8 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
-        "socalnick/scn-social-auth": "dev-master",
-        "zf-commons/zfc-user-doctrine-orm": "dev-master"
+        "socalnick/scn-social-auth": "1.6.*",
+        "zf-commons/zfc-user-doctrine-orm": "0.*"
     },
     "autoload": {
         "psr-0": {
