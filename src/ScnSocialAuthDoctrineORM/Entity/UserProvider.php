@@ -10,7 +10,7 @@ class UserProvider implements UserProviderInterface
     /** @ORM\Id @ORM\Column(type="integer",name="user_id") */
     protected $userId;
 
-    /** @ORM\Id @ORM\Column(type="integer",name="provider_id") */
+    /** @ORM\Id @ORM\Column(type="string",length=50,name="provider_id") */
     protected $providerId;
 
     /** @ORM\Column(type="string") */
