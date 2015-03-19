@@ -18,7 +18,8 @@
     } ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*",
+        "zendframework/zend-servicemanager": "~2.0",
+        "zendframework/zend-stdlib": "~2.0",
         "socalnick/scn-social-auth": "1.*",
         "zf-commons/zfc-user-doctrine-orm": "1.*"
     },
