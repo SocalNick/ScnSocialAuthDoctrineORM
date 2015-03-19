@@ -6,10 +6,6 @@ use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
 class Module implements ConfigProviderInterface
 {
-    public function onBootstrap($e)
-    {
-    }
-
     public function getAutoloaderConfig()
     {
         return array(
