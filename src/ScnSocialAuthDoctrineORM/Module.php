@@ -2,12 +2,10 @@
 
 namespace ScnSocialAuthDoctrineORM;
 
-class Module
-{
-    public function onBootstrap($e)
-    {
-    }
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
+class Module implements ConfigProviderInterface
+{
     public function getAutoloaderConfig()
     {
         return array(
